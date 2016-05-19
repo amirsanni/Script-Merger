@@ -126,6 +126,6 @@ class Merger{
 	
 	
 	private function baseUrl(){
-		return "http://localhost/merger/";
+		return "http://localhost/script-merger/";
 	}
 }

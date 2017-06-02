@@ -25,8 +25,8 @@
                     </div>
                     <br>
                     <div class='row'>
-                        <div id="loading"></div>
                         <div class='col-sm-12' id='displaySelectedFilesHere'></div>
+                        <div id="loading" style="margin-top:10px"></div>
                     </div>
                     <br>
                     <div class='row'>

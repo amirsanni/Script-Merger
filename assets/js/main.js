@@ -1,6 +1,6 @@
 'use strict';
 
-var appRoot = "http://localhost/script-merger/";
+const appRoot = "http://localhost/script-merger/";
 
 $(document).ready(function () {
 
@@ -21,10 +21,10 @@ $(document).ready(function () {
         var allFiles = $(this).get(0).files
         var totFile = allFiles.length;
 
-        for (var i = 0; i < totFile; i++) {
-            var fileName = allFiles[i].name;
+        for (let i = 0; i < totFile; i++) {
+            let fileName = allFiles[i].name;
 
-            var div = "<div><i class='fa fa-file'></i> " + fileName + "</div>";
+            let div = "<div><i class='fa fa-file'></i> " + fileName + "</div>";
 
             $("#displaySelectedFilesHere").prepend(div);
         }
